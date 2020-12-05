@@ -1,0 +1,14 @@
+# Ide directories
+.idea
+.vscode
+
+*.log
+*.pem
+
+.vagrant
+
+node_modules
+
+bin/*
+
+*.zip
