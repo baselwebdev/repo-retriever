@@ -13,7 +13,7 @@ Retrieve and store GitHub repo as a zip archive.
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-$ npm install github-repo-retriever
+$ npm install repo-retriever
 ```
 
 ## Usage
