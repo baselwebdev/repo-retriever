@@ -1,4 +1,5 @@
 {
+  "name": "repo-retriever",
   "scripts": {
     "build": "npx tsc -p tsconfig.json",
     "lint": "npx eslint --fix \"src/**\""
