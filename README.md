@@ -2,6 +2,16 @@
 
 Retrieve and store GitHub repo as a zip archive.
 
+This repo used to be part of an internal monolithic software I developed for a personal project.
+
+They have been open-sourced and split into three repos:
+
+- [Repo retriever](https://github.com/baselwebdev/repo-retriever)
+
+- [Software orchestration](https://github.com/baselwebdev/software-orchestration)
+
+- [Infrastructure management](https://github.com/baselwebdev/infrastructure-management)
+
 ## TODO
 
 - [ ] Add tests and get 100% test coverage
