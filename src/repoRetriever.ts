@@ -86,5 +86,5 @@ github.repos
             ),
         );
         console.log(error);
-        process.exit(8);
+        process.exit(1);
     });
