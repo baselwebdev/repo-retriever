@@ -4,7 +4,7 @@ import Fs from 'fs-extra';
 import { Octokit } from '@octokit/rest';
 import yargs from 'yargs';
 
-interface Arguments {
+export interface ArgumentsI {
     repo: string;
     owner: string;
     branch: string;
@@ -44,7 +44,7 @@ yargs.options({
     },
 });
 
-const userArguments: Arguments = {
+const userArguments: ArgumentsI = {
     owner: yargs.argv.owner as string,
     repo: yargs.argv.repo as string,
     branch: yargs.argv.branch as string,
