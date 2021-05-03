@@ -9,7 +9,8 @@
   "scripts": {
     "build": "npx tsc",
     "lint": "npx eslint --fix \"src/**\"",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "test": "echo \"No test specified\""
   },
   "dependencies": {
     "@octokit/rest": "^18.0.10",
