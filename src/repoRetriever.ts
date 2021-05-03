@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Buffer } from 'buffer';
 import Chalk from 'chalk';
 import Fs from 'fs-extra';

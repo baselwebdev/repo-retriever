@@ -2,10 +2,14 @@
   "name": "repo-retriever",
   "version": "1.0.2",
   "main": "dist/repoRetriever.js",
+  "bin": {
+    "repo-retriever": "dist/repoRetriever.js"
+  },
   "types": "dist/repoRetriever.d.ts",
   "scripts": {
-    "build": "npx tsc -p tsconfig.json",
-    "lint": "npx eslint --fix \"src/**\""
+    "build": "npx tsc",
+    "lint": "npx eslint --fix \"src/**\"",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "@octokit/rest": "^18.0.10",
