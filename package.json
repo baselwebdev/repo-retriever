@@ -1,6 +1,8 @@
 {
   "name": "repo-retriever",
   "version": "1.0.2",
+  "main": "dist/repoRetriever.js",
+  "types": "dist/repoRetriever.d.ts",
   "scripts": {
     "build": "npx tsc -p tsconfig.json",
     "lint": "npx eslint --fix \"src/**\""
